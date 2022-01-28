@@ -1,14 +1,42 @@
+<!DOCTYPE html>
 <html>
     <body>
+        Ahoj světe
         <canvas width="600" height="600">
 
         </canvas>
-
+      
         <script>
             let year=2042;
             let nextYear=year+1;
 
             let dinner='pasta';
+            let sentence=`Tonight, dinner will be ` + dinner;
+            function saySomething(param) {
+              console.log(param);
+            }
+
+          saySomething(sentence);
+
+          function add(a,b) {
+            return a+b;
+          }
+            let result = add(5,7);
+console.log(result);
+
+//jiný způsob ahoj
+let multiply = (a,b) => {
+return a*b;
+}
+console.log(multiply(2,5));
+
+
+
+
+
+
+
+
         </script>
     </body>
 </html>
